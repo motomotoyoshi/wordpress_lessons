@@ -24,7 +24,7 @@ p {
 }
 
 .container {
-    width: 600px;
+    width: 800px;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -65,7 +65,7 @@ p {
 
 #posts {
     float: left;
-    width: 435px;
+    width: 535px;
 }
 
     .post {
@@ -110,7 +110,7 @@ p {
 
 #sidebar {
     float: right;
-    width: 150px;
+    width: 200px;
 }
 
     .prev {
