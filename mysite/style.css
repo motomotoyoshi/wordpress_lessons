@@ -10,7 +10,7 @@ a {
 p {
     padding-bottom: 14px;
     margin: 0;
-    line-height: 1.8px;
+    line-height: 1.8;
 }
 
 .container {
@@ -58,10 +58,74 @@ p {
     width: 435px;
 }
 
+    .post {
+        margin-bottom: 30px;
+    }
+
+        .post-header {
+            margin-bottom: 15px;
+        }
+
+            .post-header h2 {
+                font-size: 16px;
+                font-weight: bold;
+            }
+
+
+            .post-meta {
+                font-size: 12px;
+                padding: 7px 0;
+                color: #555;
+            }
+        
+        .post-content {
+            overflow: hidden;
+        }
+
+            .post-image {
+                float: left;
+                width: 115px;
+            }
+
+            .post-body {
+                margin-left: 115px;
+            }
+
+.navigation {
+    overflow: hidden;
+    padding: 10px 0;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
 #sidebar {
     float: right;
     width: 150px;
 }
+
+    .prev {
+        float: left;
+        width: 200px;
+    }
+
+    .next {
+        float: right;
+        width: 200px;
+        text-align: right;
+    }
+
+    .widget {
+        margin-bottom: 25px;
+    }
+
+        .widget h3 {
+            font-weight: bold;
+            padding-bottom: 7px;
+        }
+
+        .widget li {
+            line-height: 1.8;
+        }
 
 #footer {
     padding: 15px 0;
