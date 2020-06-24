@@ -24,7 +24,7 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 900px;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -65,7 +65,7 @@ p {
 
 #posts {
     float: left;
-    width: 535px;
+    width: 435px;
 }
 
     .post {
@@ -108,11 +108,6 @@ p {
     margin-bottom: 15px;
 }
 
-#sidebar {
-    float: right;
-    width: 200px;
-}
-
     .prev {
         float: left;
         width: 200px;
@@ -123,6 +118,11 @@ p {
         width: 200px;
         text-align: right;
     }
+
+#sidebar {
+    float: right;
+    width: 200px;
+}
 
     .widget {
         margin-bottom: 25px;
